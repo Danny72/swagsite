@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  database: db/swagsite_dev
+  pool: 5
+  timeout: 5000
+  username: postgres
+  password: cheese1
+
+test:
+  adapter: postgresql
+  database: db/swagsite_test
+  pool: 5
+  timeout: 5000
+  username: postgres
+  password: cheese1
+
+production:
+  adapter: postgresql
+  database: db/swagsite_pro
+  pool: 5
+  timeout: 5000
+  username: postgres
+  password: cheese1
